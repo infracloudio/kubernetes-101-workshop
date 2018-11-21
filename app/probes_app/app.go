@@ -27,12 +27,12 @@ func readyHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 func healthHandler(w http.ResponseWriter, r *http.Request) {
-	health++
+	/*health++
 	log.Println(fmt.Sprintf("Health probe called  %d time", health))
 	if health > 40 {
 		w.WriteHeader(http.StatusInternalServerError)
 		return
-	}
+	}*/
 
 	fmt.Fprintf(w, "Ready")
 	return

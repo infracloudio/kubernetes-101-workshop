@@ -6,14 +6,14 @@ metadata:
   name: healthapp
   namespace: default
 spec:
-  replicas: 1
+  replicas: 4
   selector:
     matchLabels:
       run: healthapp
   strategy:
     rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 1
+      maxSurge: 3
+      maxUnavailable: 2
     type: RollingUpdate
   template:
     metadata:
@@ -22,7 +22,7 @@ spec:
         run: healthapp
     spec:
       containers:
-      - image: vishalbiyani/healthapp
+      - image: vishalbiyani/healthapp:1
         name: healthapp
         livenessProbe:
           httpGet:
