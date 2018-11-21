@@ -28,7 +28,7 @@ spec:
 
 # Pod Termination - grace period
 
-# Rreadiness Probe
+# Readiness Probe
 
 # Liveness Probe
 
@@ -38,4 +38,4 @@ spec:
 
 # Resource allocation
 
-# Volumes - QUick overview
+# Volumes - Quick overview
