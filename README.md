@@ -5,13 +5,13 @@
 - What is Kubernetes 
   - [Container orchestrators evolution](./content/container_orchestration.md)
   - [Architecture of Kubernetes](./content/architecture.md)
+  - [Kubernetes Capabilities](./content/kubernetes.md)
   - [Accessing Kubernetes](./content/api_kubectl.md)
-  - [Kubernetes Capabilities](./content/kubeernetes.md)
 
 - Zero -> One
-  - [Building a container image of sample app](./content/app_container.md)
-  - [Running Nginx and accessing service](./content/first_run.md)
-
+  - [Nginx on cloud in 60 seconds](./content/first_run.md)
+  - [From app to Kubernetes in 360 seconds](./content/app_container.md)
+  
 - Basic Constructs of Kubernetes
   - [Understanding Pod - Basics](./content/first_pod.md)
   - [ReplicaSet](./content/replicaset.md)
