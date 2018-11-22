@@ -1,6 +1,6 @@
 # Kubernetes 101 hands on Workshop
 
-- [Setting up Kubernetes](./content/./content/setup.md)
+- [Setting up Kubernetes](./content/setup.md)
 
 - What is Kubernetes 
   - [Container orchestrators evolution](./content/container_orchestration.md)
