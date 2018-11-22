@@ -16,20 +16,17 @@
   - [Understanding Pod - Basics](./content/first_pod.md)
   - [ReplicaSet](./content/replicaset.md)
   - [Deployment](./content/deployment.md)
-  - [Health checks](./content/health_checks.md)
   - [Daemonset](./content/daemonset.md)
   - [Statefulset](./content/statefulset.md)
   - [Job](./content/job.md)
   - [Revisiting Pod again](./content/pod_again.md)
+  - [Scheduling](./content/scheduling.md)
 
 - Configurations
-  - [Configmaps](./content/configmaps.md)
-  - [Secrets](./content/secrets.md)
-  - [Labels & Selectors](./content/labels_selectors.md)
+  - [Configmaps & Secrets](./content/config.md)
 
 - Service and service types
   - [Creating a service for application and accessing it](./content/services.md)
-  - [Doing a rolling upgrade of the application](./content/rolling_upgrade.md)
 
 - Basic operations
   - [CI/CD basics](./content/ci_cd.md)

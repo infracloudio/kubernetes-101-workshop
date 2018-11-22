@@ -2,40 +2,15 @@
 
 # What is a pod
 
+- The most basic building block in Kubernetes objects/resources.
+
 - Set of containers running together - which share port space, network and storage
-- Most common pattern is of single container in pod, but Kubernetes managed pod and that in turn manages container
 
-![pod](pod.svg)
+- Most common pattern is of single container in pod, but Kubernetes manages pod and that in turn manages container
 
-# Run the pod
+![pod](./static/pods.png)
+Source https://kubernetes.io/docs
 
-```
-apiVersion: v1
-kind: Pod
-metadata:
-  name: myapp-pod
-  labels:
-    app: myapp
-spec:
-  containers:
-  - name: myapp-container
-    image: app
-```
+- Pods are ephemeral - they can die anytime!
 
-# Run a pod with 2 containers
-
-# Init container
-
-# Pod Termination - grace period
-
-# Readiness Probe
-
-# Liveness Probe
-
-# Restart policies
-
-# Delete a pod - what happens
-
-# Resource allocation
-
-# Volumes - Quick overview
+- So how do you make sure that even if pods die, things work?

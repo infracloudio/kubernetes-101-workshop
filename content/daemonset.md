@@ -10,6 +10,6 @@
 
 - hostPort and host IP addresses
 
-- Normal Service (No gurantees, will reach random pod in daemonset)
+- Normal Service (No guarantees, will reach random pod in Daemonset)
 
 ## How to run Daemonset on only certain nodes (1.12 feature)

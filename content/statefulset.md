@@ -6,9 +6,8 @@
 
 - The deployment and scaling is ordered & graceful
 
-
 # Deletion Strategies
 
-- Rolling updates 
+- Rolling updates
 
-- Partitions 
+- Partitions
