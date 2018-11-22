@@ -11,7 +11,6 @@ Use one of the following as a Kubernetes cluster.
 ### Minikube
 
 #### macOS
-
 ```shell
 brew cask install minikube
 ```
@@ -26,8 +25,6 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-
 ### Docker for Desktop
 
 Go to preferences & enable Kubernetes
-
-![](./static/docker-kubernetes.png)
 
 ### GKE
 
