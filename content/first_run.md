@@ -10,5 +10,5 @@ $ kubectl run nginx --image nginx
 And then make it available outside the cluster
 
 ```
-$ kubectl expose deployment nginx --port=80 --target-port=8000
+$ kubectl expose deployment nginx --port=80 --target-port=80 --type=Loadbalancer
 ```
